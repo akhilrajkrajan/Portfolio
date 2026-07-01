@@ -4,12 +4,12 @@
 // ============================================================
 
 export const personalInfo = {
-  name: "Akhil Raj", // [REPLACE_NAME]
+  name: "Akhilraj Kulangaravalappil Rajan", // [REPLACE_NAME]
   title: "ESG & Sustainability Reporting Professional",
-  tagline: "ESG  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Financial Controlling",
-  email: "fkakhilraj@gmail.com", // [REPLACE_EMAIL]
-  linkedin: "https://linkedin.com/in/akhilrajkrajan", // [REPLACE_LINKEDIN]
-  location: "Europe", // [REPLACE_LOCATION — e.g. "Frankfurt, Germany"]
+  tagline: "ESG  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Pillar II ·  Financial Controlling",
+  email: "akhilraj@outlook.com", // [REPLACE_EMAIL]
+  linkedin: "https://linkedin.com/in/akhilrajkr", // [REPLACE_LINKEDIN]
+  location: "Frankfurt, Germany", // [REPLACE_LOCATION — e.g. "Frankfurt, Germany"]
   bio: `Results-driven sustainability and ESG professional with expertise in CSRD, EU Taxonomy compliance,
 and data-driven reporting. Skilled in translating complex regulatory frameworks into actionable
 business insights through advanced Power BI dashboards, financial controlling, and enterprise
