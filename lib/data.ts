@@ -20,7 +20,7 @@ export const personalInfo = {
   profileImage: "/profile.jpg", // [REPLACE_PROFILE_IMAGE] — place your photo at /public/profile.jpg
   resumeUrl: "/resume.pdf",     // [REPLACE_RESUME]        — place your CV PDF at /public/resume.pdf
   yearsExperience: 8,           // [REPLACE_YEARS]
-  qualification: Masters in International Management-Finance,        // [REPLACE_PROJECTS]
+  qualification: "Masters in International Management-Finance",        // [REPLACE_PROJECTS]
   certificationsCount: 8,       // [REPLACE_CERTIFICATIONS]
   technologiesCount: 20,        // [REPLACE_TECHNOLOGIES]
 };
