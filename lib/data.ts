@@ -6,26 +6,27 @@
 export const personalInfo = {
   name: "Akhilraj Kulangaravalappil Rajan", // [REPLACE_NAME]
   title: "ESG & Sustainability Reporting Professional",
-  tagline: "ESG  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Pillar II ·  Financial Controlling",
+  tagline: "ESG Reporting  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Pillar II ·  Reporting Automation ·  Business Intelligence",
   email: "akhilraj@outlook.com", // [REPLACE_EMAIL]
   linkedin: "https://linkedin.com/in/akhilrajkr", // [REPLACE_LINKEDIN]
   location: "Frankfurt, Germany", // [REPLACE_LOCATION — e.g. "Frankfurt, Germany"]
-  bio: `Results-driven sustainability and ESG professional with expertise in CSRD, EU Taxonomy compliance,
-and data-driven reporting. Skilled in translating complex regulatory frameworks into actionable
-business insights through advanced Power BI dashboards, financial controlling, and enterprise
-reporting systems. Committed to driving the transition toward a sustainable, low-carbon economy
-through rigorous data analysis and stakeholder engagement.`,
+  bio: `Finance, Reporting and Business Intelligence professional with 8+ years of experience in financial reporting, 
+  data analytics, process improvement and stakeholder management. Responsible for EU Taxonomy reporting 
+  across 103 legal entities and four business units within a global pharmaceutical organization, including 
+  Revenue, Capex and Opex KPI reporting, data validation, audit support and regulatory submissions. 
+  Experienced in reporting automation, data governance and management reporting using Power BI, Power Query,
+  SQL and SAP reporting solutions.
   shortBio: "Bridging sustainability strategy with financial rigour — turning ESG data into executive decisions.",
   profileImage: "/profile.jpg", // [REPLACE_PROFILE_IMAGE] — place your photo at /public/profile.jpg
   resumeUrl: "/resume.pdf",     // [REPLACE_RESUME]        — place your CV PDF at /public/resume.pdf
-  yearsExperience: 7,           // [REPLACE_YEARS]
-  projectsCompleted: 25,        // [REPLACE_PROJECTS]
+  yearsExperience: 8,           // [REPLACE_YEARS]
+  qualification: Masters in International Management-Finance,        // [REPLACE_PROJECTS]
   certificationsCount: 8,       // [REPLACE_CERTIFICATIONS]
   technologiesCount: 20,        // [REPLACE_TECHNOLOGIES]
 };
 
 export const stats = [
-  { label: "Years Experience", value: "7+",  icon: "briefcase" },
+  { label: "Years Experience", value: "8+",  icon: "briefcase" },
   { label: "ESG Projects",     value: "25+", icon: "leaf" },
   { label: "Technologies",     value: "20+", icon: "cpu" },
   { label: "Certifications",   value: "8",   icon: "award" },
@@ -33,16 +34,16 @@ export const stats = [
 
 export const experiences = [
   {
-    company: "[REPLACE_COMPANY_1]", // e.g. "Deloitte" or "KPMG"
-    position: "Senior ESG Consultant", // [REPLACE_POSITION]
-    period: "2022 – Present",          // [REPLACE_PERIOD]
-    location: "Frankfurt, Germany",    // [REPLACE_LOCATION]
+    company: "[Fresenius Kabi]", // e.g. "Deloitte" or "KPMG"
+    position: "Non-GAAP & Sustainability Reporting", // [REPLACE_POSITION]
+    period: "2024 – Present",          // [REPLACE_PERIOD]
+    location: "Bad Homburg, Germany",    // [REPLACE_LOCATION]
     type: "Full-time",
     description:
       "Leading CSRD compliance assessments and EU Taxonomy alignment projects for DAX-listed clients across the manufacturing and energy sectors.",
     responsibilities: [
-      "Developed CSRD-compliant sustainability reporting frameworks aligned with ESRS standards",
-      "Built Power BI dashboards integrating ESG KPIs with SAP financial data for real-time reporting",
+      "Own EU Taxonomy Revenue, Capex and Opex KPI reporting across 103 legal entities and four global business units.",
+      "Coordinate collection, validation, allocation and consolidation of financial and operational data for group reporting.",
       "Conducted EU Taxonomy eligibility and alignment assessments for capital allocation decisions",
       "Automated data collection workflows using Power Query and Power Automate, reducing reporting time by 60%",
       "Collaborated with C-suite and sustainability teams to embed ESG into corporate strategy",
