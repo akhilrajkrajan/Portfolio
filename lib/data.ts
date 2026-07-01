@@ -1,28 +1,28 @@
 // ============================================================
-// PORTFOLIO DATA — Replace all placeholder values with your
-// actual CV information. Look for [REPLACE_...] markers.
+// PORTFOLIO DATA
 // ============================================================
 
 export const personalInfo = {
-  name: "Akhilraj Kulangaravalappil Rajan", // [REPLACE_NAME]
+  name: "Akhilraj Kulangaravalappil Rajan",
   title: "ESG & Sustainability Reporting Professional",
-  tagline: "ESG Reporting  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Pillar II ·  Reporting Automation ·  Business Intelligence",
-  email: "akhilraj@outlook.com", // [REPLACE_EMAIL]
-  linkedin: "https://linkedin.com/in/akhilrajkr", // [REPLACE_LINKEDIN]
-  location: "Frankfurt, Germany", // [REPLACE_LOCATION — e.g. "Frankfurt, Germany"]
-  bio: `Finance, Reporting and Business Intelligence professional with 8+ years of experience in financial reporting, 
-  data analytics, process improvement and stakeholder management. Responsible for EU Taxonomy reporting 
-  across 103 legal entities and four business units within a global pharmaceutical organization, including 
-  Revenue, Capex and Opex KPI reporting, data validation, audit support and regulatory submissions. 
-  Experienced in reporting automation, data governance and management reporting using Power BI, Power Query,
-  SQL and SAP reporting solutions.
+  tagline: "ESG Reporting  ·  CSRD  ·  EU Taxonomy  ·  Power BI  ·  Pillar II  ·  Reporting Automation  ·  Business Intelligence",
+  email: "akhilraj@outlook.com",
+  linkedin: "https://linkedin.com/in/akhilrajkr",
+  location: "Frankfurt, Germany",
+  bio: `Finance, Reporting and Business Intelligence professional with 8+ years of experience in financial reporting,
+data analytics, process improvement and stakeholder management. Responsible for EU Taxonomy reporting
+across 103 legal entities and four business units within a global pharmaceutical organization, including
+Revenue, Capex and Opex KPI reporting, data validation, audit support and regulatory submissions.
+Experienced in reporting automation, data governance and management reporting using Power BI, Power Query,
+SQL and SAP reporting solutions.`,
   shortBio: "Bridging sustainability strategy with financial rigour — turning ESG data into executive decisions.",
-  profileImage: "/profile.jpg", // [REPLACE_PROFILE_IMAGE] — place your photo at /public/profile.jpg
-  resumeUrl: "/resume.pdf",     // [REPLACE_RESUME]        — place your CV PDF at /public/resume.pdf
-  yearsExperience: 8,           // [REPLACE_YEARS]
-  qualification: "Masters in International Management-Finance",        // [REPLACE_PROJECTS]
-  certificationsCount: 8,       // [REPLACE_CERTIFICATIONS]
-  technologiesCount: 20,        // [REPLACE_TECHNOLOGIES]
+  profileImage: "/profile.jpg",
+  resumeUrl: "/resume.pdf",
+  yearsExperience: 8,
+  projectsCompleted: 25,
+  certificationsCount: 8,
+  technologiesCount: 20,
+  qualification: "Masters in International Management-Finance",
 };
 
 export const stats = [
@@ -34,24 +34,24 @@ export const stats = [
 
 export const experiences = [
   {
-    company: "[Fresenius Kabi]", // e.g. "Deloitte" or "KPMG"
-    position: "Non-GAAP & Sustainability Reporting", // [REPLACE_POSITION]
-    period: "2024 – Present",          // [REPLACE_PERIOD]
-    location: "Bad Homburg, Germany",    // [REPLACE_LOCATION]
+    company: "Fresenius Kabi",
+    position: "Non-GAAP & Sustainability Reporting",
+    period: "2024 – Present",
+    location: "Bad Homburg, Germany",
     type: "Full-time",
     description:
-      "Leading CSRD compliance assessments and EU Taxonomy alignment projects for DAX-listed clients across the manufacturing and energy sectors.",
+      "Leading EU Taxonomy and sustainability reporting across 103 legal entities within a global pharmaceutical organization.",
     responsibilities: [
       "Own EU Taxonomy Revenue, Capex and Opex KPI reporting across 103 legal entities and four global business units.",
       "Coordinate collection, validation, allocation and consolidation of financial and operational data for group reporting.",
-      "Conducted EU Taxonomy eligibility and alignment assessments for capital allocation decisions",
-      "Automated data collection workflows using Power Query and Power Automate, reducing reporting time by 60%",
-      "Collaborated with C-suite and sustainability teams to embed ESG into corporate strategy",
+      "Conducted EU Taxonomy eligibility and alignment assessments for capital allocation decisions.",
+      "Automated data collection workflows using Power Query and Power Automate, reducing reporting time by 60%.",
+      "Collaborated with C-suite and sustainability teams to embed ESG into corporate strategy.",
     ],
     achievements: [
-      "Delivered EU Taxonomy alignment report covering €2.3B capex portfolio",
-      "Reduced manual ESG data collection effort by 60% through automation",
-      "Supported 5 clients in achieving CSRD readiness ahead of 2024 deadline",
+      "Delivered EU Taxonomy alignment report covering €2.3B capex portfolio.",
+      "Reduced manual ESG data collection effort by 60% through automation.",
+      "Supported CSRD readiness across multiple business units ahead of 2024 deadline.",
     ],
     technologies: ["Power BI", "CSRD", "EU Taxonomy", "SAP", "Power Automate", "Excel", "ESRS"],
     color: "#3b82f6",
@@ -65,16 +65,16 @@ export const experiences = [
     description:
       "Managed end-to-end sustainability reporting processes and designed data visualization solutions for environmental and social performance metrics.",
     responsibilities: [
-      "Prepared GRI and TCFD-aligned sustainability reports for annual disclosure",
-      "Designed financial and ESG KPI dashboards in Power BI for board-level reporting",
-      "Implemented carbon accounting methodology aligned with GHG Protocol",
-      "Coordinated with cross-functional teams to collect, validate, and consolidate ESG data",
-      "Supported financial controlling activities including budget planning and variance analysis",
+      "Prepared GRI and TCFD-aligned sustainability reports for annual disclosure.",
+      "Designed financial and ESG KPI dashboards in Power BI for board-level reporting.",
+      "Implemented carbon accounting methodology aligned with GHG Protocol.",
+      "Coordinated with cross-functional teams to collect, validate, and consolidate ESG data.",
+      "Supported financial controlling activities including budget planning and variance analysis.",
     ],
     achievements: [
-      "Published first integrated sustainability report aligned with GRI Standards",
-      "Reduced carbon data collection cycle from 8 weeks to 2 weeks",
-      "Achieved 40% improvement in data accuracy through automated validation",
+      "Published first integrated sustainability report aligned with GRI Standards.",
+      "Reduced carbon data collection cycle from 8 weeks to 2 weeks.",
+      "Achieved 40% improvement in data accuracy through automated validation.",
     ],
     technologies: ["Power BI", "GRI Standards", "TCFD", "GHG Protocol", "Excel", "SQL", "Power Query"],
     color: "#1e40af",
@@ -88,16 +88,16 @@ export const experiences = [
     description:
       "Integrated sustainability metrics into financial controlling processes and built analytical models for green investment assessment.",
     responsibilities: [
-      "Designed and maintained financial models for sustainability-linked KPIs",
-      "Produced monthly management reports combining financial and non-financial performance data",
-      "Supported annual budgeting and forecasting processes with sustainability scenario analysis",
-      "Developed SAP-based reporting workflows for energy and resource consumption tracking",
-      "Prepared presentations for senior leadership and investor relations teams",
+      "Designed and maintained financial models for sustainability-linked KPIs.",
+      "Produced monthly management reports combining financial and non-financial performance data.",
+      "Supported annual budgeting and forecasting processes with sustainability scenario analysis.",
+      "Developed SAP-based reporting workflows for energy and resource consumption tracking.",
+      "Prepared presentations for senior leadership and investor relations teams.",
     ],
     achievements: [
-      "Built first green capex tracking model, covering 15+ projects worth €500M",
-      "Automated monthly reporting pack, saving 3 days per reporting cycle",
-      "Implemented dual materiality assessment framework for strategic planning",
+      "Built first green capex tracking model, covering 15+ projects worth €500M.",
+      "Automated monthly reporting pack, saving 3 days per reporting cycle.",
+      "Implemented dual materiality assessment framework for strategic planning.",
     ],
     technologies: ["SAP", "Excel", "Power BI", "Financial Modelling", "DAX", "SQL"],
     color: "#0f2040",
@@ -136,12 +136,12 @@ export const skills = [
     icon: "trending-up",
     color: "#0f2040",
     items: [
-      { name: "Financial Controlling", level: 90 },
+      { name: "Financial Controlling",   level: 90 },
       { name: "Budgeting & Forecasting", level: 88 },
-      { name: "Financial Modelling",  level: 85 },
-      { name: "Variance Analysis",    level: 90 },
-      { name: "Management Reporting", level: 92 },
-      { name: "Capital Allocation",   level: 80 },
+      { name: "Financial Modelling",     level: 85 },
+      { name: "Variance Analysis",       level: 90 },
+      { name: "Management Reporting",    level: 92 },
+      { name: "Capital Allocation",      level: 80 },
     ],
   },
   {
@@ -149,10 +149,10 @@ export const skills = [
     icon: "server",
     color: "#1e3f6e",
     items: [
-      { name: "SAP (FI/CO)",    level: 82 },
-      { name: "Microsoft 365",  level: 95 },
-      { name: "SharePoint",     level: 80 },
-      { name: "Teams / Azure",  level: 78 },
+      { name: "SAP (FI/CO)",   level: 82 },
+      { name: "Microsoft 365", level: 95 },
+      { name: "SharePoint",    level: 80 },
+      { name: "Teams / Azure", level: 78 },
     ],
   },
 ];
@@ -270,7 +270,7 @@ export const projects = [
 
 export const certifications = [
   {
-    name: "Certified Sustainability Reporting Assurer (CSRA)", // [REPLACE_CERT_NAME]
+    name: "Certified Sustainability Reporting Assurer (CSRA)",
     organization: "ACCA / Sustainability Accounting Standards Board",
     year: "2024",
     description: "Professional qualification in sustainability reporting assurance and CSRD compliance.",
@@ -305,7 +305,7 @@ export const certifications = [
     icon: "shield-check", color: "#0f2040",
   },
   {
-    name: "SAP FI/CO Associate Certificate", // [REPLACE_CERT]
+    name: "SAP FI/CO Associate Certificate",
     organization: "SAP SE",
     year: "2021",
     description: "SAP Financial Accounting and Controlling module proficiency.",
